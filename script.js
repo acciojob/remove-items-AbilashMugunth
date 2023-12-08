@@ -5,11 +5,9 @@
 
       let selectedValue;
 
-      dropDown.addEventListener("click", (event) => {
-        selectedValue = event.target.value;
-      });
 
       removeBtn.addEventListener("click", () => {
+        selectedValue = dropDown.value;
         let options = dropDown.children;
 
         Array.from(options).forEach((option) => {
