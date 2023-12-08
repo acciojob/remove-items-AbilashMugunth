@@ -5,7 +5,7 @@
 
       let selectedValue;
 
-      dropDown.addEventListener("change", (event) => {
+      dropDown.addEventListener("click", (event) => {
         selectedValue = event.target.value;
       });
 
