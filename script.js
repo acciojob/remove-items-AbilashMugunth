@@ -7,8 +7,6 @@
 
       dropDown.addEventListener("change", (event) => {
         selectedValue = event.target.value;
-        console.log(`Selected option: ${selectedValue}`);
-        // console.log(dropDown);
       });
 
       removeBtn.addEventListener("click", () => {
@@ -19,5 +17,4 @@
             option.remove();
           }
         });
-        console.dir(dropDown);
       });
